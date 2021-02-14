@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>自動販売機</title>
+  <style>
+    body {
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>自動販売機</h2>
+    <p>商品：コカコーラ 150円 <button id="cola-button">購入</button></p>
+    <p>商品：ミネラルウォーター 100円 <button id="water-button">購入</button></p>
+    <p>商品：缶コーヒー 120円 <button id="coffee-button">購入</button></p>
+  </div>
+  <div>
+    <button id="coin10">10円</button>
+    <button id="coin50">50円</button>
+    <button id="coin100">100円</button>
+    <button id="coin500">500円</button>
+  </div>
+  <div>
+    <p>投入金額：<span id="display">0</span>円</p>
+
+    <button id="charge-button">お釣りレバー</button>
+    <p>購入数：<span id="drinkNumber">0</span>本</p>
+    <p>お釣り：<span id="charge">0</span>円</p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
